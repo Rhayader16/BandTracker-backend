@@ -1,8 +1,8 @@
 const router = require("express").Router();
 const Venue = require("./../models/Venue.model");
-// const {isAdmin} = require("./../middleware/authentication");
+const { isAdmin, isAuthenticated } = require("./../middleware/jwt.middleware");
 
-router.post("/:artistId", (req, res, next) => {
+router.post("/:artistId", isAuthenticated, isAdmin, (req, res, next) => {
   const artist = req.params.artistId;
   const newVenue = {
     artist,
@@ -19,7 +19,8 @@ router.post("/:artistId", (req, res, next) => {
       next(error);
     });
 });
-router.get("/", (req, res, next) => {
+
+router.get("/", isAuthenticated, (req, res, next) => {
   Venue.find()
     .then((allVenues) => {
       res.status(200).json(allVenues);
