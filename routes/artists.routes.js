@@ -45,7 +45,7 @@ router.delete("/:artistId", isAdmin, (req, res, next) => {
       next(error);
     });
 });
-router.put("/:artistId", (req, res, next) => {
+router.put("/:artistId", isAdmin, (req, res, next) => {
   Artist.findByIdAndUpdate(req.params.artistId, req.body, { new: true })
     .then((updatedArtist) => {
       res.json(updatedArtist);
