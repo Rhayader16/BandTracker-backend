@@ -8,6 +8,7 @@ router.get("/", (req, res, next) => {
 
 router.use("/auth", require("./auth.routes"));
 
+router.use("/concerts/artist", require("./concerts.routes"));
 router.use("/users", require("./users.routes"));
 router.use("/artists", require("./artists.routes"));
 router.use("/concerts", require("./concerts.routes"));

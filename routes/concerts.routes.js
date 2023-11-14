@@ -30,4 +30,25 @@ router.get("/", isAuthenticated, (req, res, next) => {
     });
 });
 
+router.get("/:artistId", isAuthenticated, (req, res, next) => {
+  const artistId = req.params.artistId;
+
+  Venue.find({ artist: artistId })
+    .then((allConcerts) => {
+      res.status(200).json(allConcerts);
+    })
+    .catch((error) => {
+      next(error);
+    });
+});
+
+router.get("/venue/:concertId", async (req, res, next) => {
+  const { concertId } = req.params;
+  try {
+    const oneConcert = await Venue.findById(concertId);
+    res.json(oneConcert);
+  } catch (error) {
+    next(error);
+  }
+});
 module.exports = router;

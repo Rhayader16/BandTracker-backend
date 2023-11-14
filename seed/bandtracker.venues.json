@@ -1,0 +1,90 @@
+[
+  {
+    "venue": "O2 Academy Brixton",
+    "city": "London",
+    "address": "211 Stockwell Road, Brixton, London SW9 9SL, UK",
+    "date": "2024-04-05T19:30:00.000+00:00",
+    "coordinates": [51.4657, -0.114],
+    "__v": 0
+  },
+  {
+    "venue": "Barrowland Ballroom",
+    "city": "Glasgow",
+    "address": "244 Gallowgate, Glasgow G4 0TT, UK",
+    "date": "2024-04-15T20:00:00.000+00:00",
+    "coordinates": [55.8564, -4.2376],
+    "__v": 0
+  },
+  {
+    "venue": "Paradiso",
+    "city": "Amsterdam",
+    "address": "Weteringschans 6-8, 1017 SG Amsterdam, Netherlands",
+    "date": "2024-04-25T21:00:00.000+00:00",
+    "coordinates": [52.3645, 4.8827],
+    "__v": 0
+  },
+  {
+    "venue": "Astra Kulturhaus",
+    "city": "Berlin",
+    "address": "Revaler Str. 99, 10245 Berlin, Germany",
+    "date": "2024-05-02T20:30:00.000+00:00",
+    "coordinates": [52.5071, 13.4524],
+    "__v": 0
+  },
+  {
+    "venue": "Fabrique",
+    "city": "Milan",
+    "address": "Via Fantoli, 9, 20138 Milan, Italy",
+    "date": "2024-05-10T21:30:00.000+00:00",
+    "coordinates": [45.4404, 9.2051],
+    "__v": 0
+  },
+  {
+    "venue": "Razzmatazz",
+    "city": "Barcelona",
+    "address": "Carrer dels Almogàvers, 122, 08018 Barcelona, Spain",
+    "date": "2024-05-18T22:00:00.000+00:00",
+    "coordinates": [41.3987, 2.1915],
+    "__v": 0
+  },
+  {
+    "venue": "Store Vega",
+    "city": "Copenhagen",
+    "address": "Enghavevej 40, 1674 Copenhagen V, Denmark",
+    "date": "2024-06-01T19:45:00.000+00:00",
+    "coordinates": [55.6654, 12.5431],
+    "__v": 0
+  },
+  {
+    "venue": "Debaser Medis",
+    "city": "Stockholm",
+    "address": "Medborgarplatsen 8, 118 26 Stockholm, Sweden",
+    "date": "2024-06-08T20:15:00.000+00:00",
+    "coordinates": [59.3143, 18.0737],
+    "__v": 0
+  },
+  {
+    "venue": "Pumpehuset",
+    "city": "Copenhagen",
+    "address": "Studiestræde 52, 1554 Copenhagen, Denmark",
+    "date": "2024-06-15T21:00:00.000+00:00",
+    "coordinates": [55.676, 12.5699],
+    "__v": 0
+  },
+  {
+    "venue": "Cirque Royal",
+    "city": "Brussels",
+    "address": "Rue de l'Enseignement 81, 1000 Brussels, Belgium",
+    "date": "2024-06-22T20:30:00.000+00:00",
+    "coordinates": [50.8467, 4.3675],
+    "__v": 0
+  },
+  {
+    "venue": "La Cigale",
+    "city": "Paris",
+    "address": "120 Boulevard de Rochechouart, 75018 Paris, France",
+    "date": "2024-03-10T20:00:00.000+00:00",
+    "coordinates": [48.8843, 2.3448],
+    "__v": 0
+  }
+]
