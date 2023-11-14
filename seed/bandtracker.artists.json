@@ -1,0 +1,586 @@
+[
+  {
+    "name": "Interpol",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Turn on the Bright Lights",
+        "year": 2002,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-1.jpg"
+      },
+      {
+        "name": "Antics",
+        "year": 2004,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-2.jpg"
+      },
+      {
+        "name": "Our Love to Admire",
+        "year": 2007,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-3.jpg"
+      },
+      {
+        "name": "Interpol",
+        "year": 2010,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-4.jpg"
+      },
+      {
+        "name": "El Pintor",
+        "year": 2014,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-5.jpg"
+      },
+      {
+        "name": "Marauder",
+        "year": 2018,
+        "picture": "http://www.danielemanzo.com/band-tracker/interpol-6.jpg"
+      }
+    ],
+    "concertDate": "2023-12-05T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/interpol-band.png"
+  },
+  {
+    "name": "Bloc Party",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Silent Alarm",
+        "year": 2005,
+        "picture": "http://www.danielemanzo.com/band-tracker/blocparty-1.jpg"
+      },
+      {
+        "name": "A Weekend in the City",
+        "year": 2007,
+        "picture": "http://www.danielemanzo.com/band-tracker/blocparty-2.jpg"
+      },
+      {
+        "name": "Intimacy",
+        "year": 2008,
+        "picture": "http://www.danielemanzo.com/band-tracker/blocparty-3.jpg"
+      },
+      {
+        "name": "Four",
+        "year": 2012,
+        "picture": "http://www.danielemanzo.com/band-tracker/blocparty-4.jpg"
+      },
+      {
+        "name": "Hymns",
+        "year": 2016,
+        "picture": "http://www.danielemanzo.com/band-tracker/blocparty-5.jpg"
+      }
+    ],
+    "concertDate": "2023-12-12T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/blocparty-band.png"
+  },
+  {
+    "name": "The Black Keys",
+    "genre": "Rock",
+    "album": [
+      {
+        "name": "Brothers",
+        "year": 2010,
+        "picture": "http://www.danielemanzo.com/band-tracker/blackkeys-1.jpg"
+      },
+      {
+        "name": "El Camino",
+        "year": 2011,
+        "picture": "http://www.danielemanzo.com/band-tracker/blackkeys-2.jpg"
+      },
+      {
+        "name": "Turn Blue",
+        "year": 2014,
+        "picture": "http://www.danielemanzo.com/band-tracker/blackkeys-3.jpg"
+      },
+      {
+        "name": "Let's Rock",
+        "year": 2019,
+        "picture": "http://www.danielemanzo.com/band-tracker/blackkeys-4.jpg"
+      }
+    ],
+    "concertDate": "2024-01-08T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/blackkeys-band.png"
+  },
+  {
+    "name": "Queens of the Stone Age",
+    "genre": "Rock",
+    "album": [
+      {
+        "name": "Songs for the Deaf",
+        "year": 2002,
+        "picture": "http://www.danielemanzo.com/band-tracker/qotsa-1.jpg"
+      },
+      {
+        "name": "Lullabies to Paralyze",
+        "year": 2005,
+        "picture": "http://www.danielemanzo.com/band-tracker/qotsa-2.jpg"
+      },
+      {
+        "name": "Era Vulgaris",
+        "year": 2007,
+        "picture": "http://www.danielemanzo.com/band-tracker/qotsa-3.jpg"
+      },
+      {
+        "name": "...Like Clockwork",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/qotsa-4.jpg"
+      },
+      {
+        "name": "Villains",
+        "year": 2017,
+        "picture": "http://www.danielemanzo.com/band-tracker/qotsa-5.jpg"
+      }
+    ],
+    "concertDate": "2024-02-02T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/qotsa-band.png"
+  },
+  {
+    "name": "Deafheaven",
+    "genre": "Metal",
+    "album": [
+      {
+        "name": "Sunbather",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/deafheaven-1.jpg"
+      },
+      {
+        "name": "New Bermuda",
+        "year": 2015,
+        "picture": "http://www.danielemanzo.com/band-tracker/deafheaven-2.jpg"
+      },
+      {
+        "name": "Ordinary Corrupt Human Love",
+        "year": 2018,
+        "picture": "http://www.danielemanzo.com/band-tracker/deafheaven-3.jpg"
+      }
+    ],
+    "concertDate": "2024-02-15T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/deafheaven-band.png"
+  },
+  {
+    "name": "Editors",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "The Back Room",
+        "year": 2005,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-1.jpg"
+      },
+      {
+        "name": "An End Has a Start",
+        "year": 2007,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-2.jpg"
+      },
+      {
+        "name": "In This Light and on This Evening",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-3.jpg"
+      },
+      {
+        "name": "The Weight of Your Love",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-4.jpg"
+      },
+      {
+        "name": "In Dream",
+        "year": 2015,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-5.jpg"
+      },
+      {
+        "name": "Violence",
+        "year": 2018,
+        "picture": "http://www.danielemanzo.com/band-tracker/editors-6.jpg"
+      }
+    ],
+    "concertDate": "2024-03-05T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/editors-band.png"
+  },
+  {
+    "name": "Foster the People",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Torches",
+        "year": 2011,
+        "picture": "http://www.danielemanzo.com/band-tracker/foster-1.jpg"
+      },
+      {
+        "name": "Supermodel",
+        "year": 2014,
+        "picture": "http://www.danielemanzo.com/band-tracker/foster-2.jpg"
+      },
+      {
+        "name": "Sacred Hearts Club",
+        "year": 2017,
+        "picture": "http://www.danielemanzo.com/band-tracker/foster-3.jpg"
+      },
+      {
+        "name": "In the Darkest of Nights, Let the Birds Sing",
+        "year": 2020,
+        "picture": "http://www.danielemanzo.com/band-tracker/foster-4.jpg"
+      }
+    ],
+    "concertDate": "2024-03-12T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/foster-band.png"
+  },
+  {
+    "name": "Soviet Soviet",
+    "genre": "Alternative",
+    "album": [
+      {
+        "name": "Endless",
+        "year": 2011,
+        "picture": "http://www.danielemanzo.com/band-tracker/soviet-1.jpg"
+      },
+      {
+        "name": "Fate",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/soviet-2.jpg"
+      },
+      {
+        "name": "Endless Beauty",
+        "year": 2015,
+        "picture": "http://www.danielemanzo.com/band-tracker/soviet-3.jpg"
+      },
+      {
+        "name": "Odessa",
+        "year": 2019,
+        "picture": "http://www.danielemanzo.com/band-tracker/soviet-4.png"
+      }
+    ],
+    "concertDate": "2024-03-19T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/soviet-band.png"
+  },
+  {
+    "name": "Metallica",
+    "genre": "Metal",
+    "album": [
+      {
+        "name": "Master of Puppets",
+        "year": 1986,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-1.jpg"
+      },
+      {
+        "name": "Ride the Lightning",
+        "year": 1984,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-2.jpg"
+      },
+      {
+        "name": "Metallica (The Black Album)",
+        "year": 1991,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-3.jpg"
+      },
+      {
+        "name": "...And Justice for All",
+        "year": 1988,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-4.jpg"
+      },
+      {
+        "name": "Kill 'Em All",
+        "year": 1983,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-5.jpg"
+      },
+      {
+        "name": "Load",
+        "year": 1996,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-6.jpg"
+      },
+      {
+        "name": "Reload",
+        "year": 1997,
+        "picture": "http://www.danielemanzo.com/band-tracker/metallica-7.jpg"
+      },
+      {
+        "name": "Hardwired... to Self-Destruct",
+        "year": 2016,
+        "picture": "www.danielemanzo.com/band-tracker/metallica-8.jpg"
+      }
+    ],
+    "concertDate": "2024-04-02T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/metallica-band.png"
+  },
+  {
+    "name": "Megadeth",
+    "genre": "Metal",
+    "album": [
+      {
+        "name": "Rust in Peace",
+        "year": 1990,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-1.jpg"
+      },
+      {
+        "name": "Peace Sells... but Who's Buying?",
+        "year": 1986,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-2.jpg"
+      },
+      {
+        "name": "Countdown to Extinction",
+        "year": 1992,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-3.jpg"
+      },
+      {
+        "name": "Youthanasia",
+        "year": 1994,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-4.jpg"
+      },
+      {
+        "name": "Killing Is My Business... and Business Is Good!",
+        "year": 1985,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-5.jpg"
+      },
+      {
+        "name": "So Far, So Good... So What!",
+        "year": 1988,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-6.jpg"
+      },
+      {
+        "name": "Dystopia",
+        "year": 2016,
+        "picture": "http://www.danielemanzo.com/band-tracker/megadeth-7.jpg"
+      }
+    ],
+    "concertDate": "2024-04-09T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/megadeth-band.png"
+  },
+  {
+    "name": "Wolfmother",
+    "genre": "Rock",
+    "album": [
+      {
+        "name": "Wolfmother",
+        "year": 2005,
+        "picture": "http://www.danielemanzo.com/band-tracker/wolfmother-1.jpg"
+      },
+      {
+        "name": "Cosmic Egg",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/wolfmother-2.jpg"
+      },
+      {
+        "name": "Victorious",
+        "year": 2016,
+        "picture": "http://www.danielemanzo.com/band-tracker/wolfmother-3.jpg"
+      },
+      {
+        "name": "New Crown",
+        "year": 2014,
+        "picture": "http://www.danielemanzo.com/band-tracker/wolfmother-4.jpg"
+      },
+      {
+        "name": "Stockholm Syndrome",
+        "year": 2019,
+        "picture": "http://www.danielemanzo.com/band-tracker/wolfmother-5.jpg"
+      }
+    ],
+    "concertDate": "2024-04-16T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/wolfmother-band.png"
+  },
+  {
+    "name": "Yeah Yeah Yeahs",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Fever to Tell",
+        "year": 2003,
+        "picture": "http://www.danielemanzo.com/band-tracker/yeah-1.jpg"
+      },
+      {
+        "name": "Show Your Bones",
+        "year": 2006,
+        "picture": "http://www.danielemanzo.com/band-tracker/yeah-2.jpg"
+      },
+      {
+        "name": "It's Blitz!",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/yeah-3.jpg"
+      },
+      {
+        "name": "Mosquito",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/yeah-4.jpg"
+      }
+    ],
+    "concertDate": "2024-04-23T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/yeah-band.png"
+  },
+  {
+    "name": "Pixies",
+    "genre": "Alternative",
+    "album": [
+      {
+        "name": "Doolittle",
+        "year": 1989,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-1.jpg"
+      },
+      {
+        "name": "Surfer Rosa",
+        "year": 1988,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-2.jpg"
+      },
+      {
+        "name": "Bossanova",
+        "year": 1990,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-3.jpg"
+      },
+      {
+        "name": "Trompe le Monde",
+        "year": 1991,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-4.jpg"
+      },
+      {
+        "name": "Indie Cindy",
+        "year": 2014,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-5.jpg"
+      },
+      {
+        "name": "Beneath the Eyrie",
+        "year": 2019,
+        "picture": "http://www.danielemanzo.com/band-tracker/pixies-6.jpg"
+      }
+    ],
+    "concertDate": "2024-04-30T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/pixies-band.png"
+  },
+  {
+    "name": "Grizzly Bear",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Veckatimest",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/grizzly-1.jpg"
+      },
+      {
+        "name": "Yellow House",
+        "year": 2006,
+        "picture": "http://www.danielemanzo.com/band-tracker/grizzly-2.jpg"
+      },
+      {
+        "name": "Shields",
+        "year": 2012,
+        "picture": "http://www.danielemanzo.com/band-tracker/grizzly-3.jpg"
+      },
+      {
+        "name": "Painted Ruins",
+        "year": 2017,
+        "picture": "http://www.danielemanzo.com/band-tracker/grizzly-4.jpg"
+      }
+    ],
+    "concertDate": "2024-05-07T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/grizzly-band.png"
+  },
+  {
+    "name": "Iron Maiden",
+    "genre": "Metal",
+    "album": [
+      {
+        "name": "The Number of the Beast",
+        "year": 1982,
+        "picture": "http://www.danielemanzo.com/band-tracker/ironmaiden-1.jpg"
+      },
+      {
+        "name": "Powerslave",
+        "year": 1984,
+        "picture": "http://www.danielemanzo.com/band-tracker/ironmaiden-2.jpg"
+      },
+      {
+        "name": "Seventh Son of a Seventh Son",
+        "year": 1988,
+        "picture": "http://www.danielemanzo.com/band-tracker/ironmaiden-3.jpg"
+      },
+      {
+        "name": "Brave New World",
+        "year": 2000,
+        "picture": "http://www.danielemanzo.com/band-tracker/ironmaiden-4.jpg"
+      },
+      {
+        "name": "The Book of Souls",
+        "year": 2015,
+        "picture": "http://www.danielemanzo.com/band-tracker/ironmaiden-5.jpg"
+      }
+    ],
+    "concertDate": "2024-05-14T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/ironmaiden-band.png"
+  },
+  {
+    "name": "Tame Impala",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "Currents",
+        "year": 2015,
+        "picture": "http://www.danielemanzo.com/band-tracker/tameimpala-1.jpg"
+      },
+      {
+        "name": "Lonerism",
+        "year": 2012,
+        "picture": "http://www.danielemanzo.com/band-tracker/tameimpala-2.jpg"
+      },
+      {
+        "name": "Innerspeaker",
+        "year": 2010,
+        "picture": "http://www.danielemanzo.com/band-tracker/tameimpala-3.jpg"
+      },
+      {
+        "name": "The Slow Rush",
+        "year": 2020,
+        "picture": "http://www.danielemanzo.com/band-tracker/tameimpala-4.jpg"
+      }
+    ],
+    "concertDate": "2024-05-21T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/tameimpala-band.png"
+  },
+  {
+    "name": "White Lies",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "To Lose My Life...",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/whitelies-1.jpg"
+      },
+      {
+        "name": "Ritual",
+        "year": 2011,
+        "picture": "http://www.danielemanzo.com/band-tracker/whitelies-2.jpg"
+      },
+      {
+        "name": "Big TV",
+        "year": 2013,
+        "picture": "http://www.danielemanzo.com/band-tracker/whitelies-3.jpg"
+      },
+      {
+        "name": "Friends",
+        "year": 2016,
+        "picture": "http://www.danielemanzo.com/band-tracker/whitelies-4.jpg"
+      },
+      {
+        "name": "Five",
+        "year": 2019,
+        "picture": "http://www.danielemanzo.com/band-tracker/whitelies-5.jpg"
+      }
+    ],
+    "concertDate": "2024-05-28T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/whitelies-band.png"
+  },
+  {
+    "name": "The XX",
+    "genre": "Indie",
+    "album": [
+      {
+        "name": "XX",
+        "year": 2009,
+        "picture": "http://www.danielemanzo.com/band-tracker/XX-1.jpg"
+      },
+      {
+        "name": "Coexist",
+        "year": 2012,
+        "picture": "http://www.danielemanzo.com/band-tracker/XX-2.jpg"
+      },
+      {
+        "name": "I See You",
+        "year": 2017,
+        "picture": "http://www.danielemanzo.com/band-tracker/XX-3.jpg"
+      }
+    ],
+    "concertDate": "2024-06-04T21:00:00.000Z",
+    "photo": "http://www.danielemanzo.com/band-tracker/XX-band.png"
+  }
+]

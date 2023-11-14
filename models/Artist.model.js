@@ -20,8 +20,6 @@ const artistSchema = new Schema(
       ],
       required: true,
     },
-    album: [{ name: String, year: Date, picture: String }],
-    concertDate: { type: Date, required: true },
     photo: { type: String },
   },
   {

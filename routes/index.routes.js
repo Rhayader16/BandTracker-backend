@@ -11,5 +11,6 @@ router.use("/auth", require("./auth.routes"));
 router.use("/users", require("./users.routes"));
 router.use("/artists", require("./artists.routes"));
 router.use("/concerts", require("./concerts.routes"));
+router.use("/albums", require("./albums.routes"));
 
 module.exports = router;

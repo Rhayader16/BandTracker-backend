@@ -2,6 +2,7 @@ const router = require("express").Router();
 const Artist = require("./../models/Artist.model");
 const { isAdmin, isAuthenticated } = require("./../middleware/jwt.middleware");
 const Venue = require("../models/Venue.model");
+const Album = require("../models/Album.model");
 
 router.get("/", (req, res, next) => {
   Artist.find()
@@ -14,7 +15,7 @@ router.get("/", (req, res, next) => {
     });
 });
 
-//router.use(isAuthenticated);
+router.use(isAuthenticated);
 
 router.post("/", isAdmin, (req, res, next) => {
   const newArtist = { ...req.body };
@@ -31,7 +32,8 @@ router.get("/:artistId", async (req, res, next) => {
   try {
     const oneArtist = await Artist.findById(artistId);
     const allVenuesOfArtist = await Venue.find({ artist: artistId });
-    res.json({ oneArtist, allVenuesOfArtist });
+    const allAlbums = await Album.find({ artist: artistId });
+    res.json({ oneArtist, allVenuesOfArtist, allAlbums });
   } catch (error) {
     next(error);
   }
