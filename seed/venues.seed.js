@@ -15,11 +15,7 @@ const data = require("./bandtracker.venues.json");
         coordinates: venue.coordinates,
       };
       const createdVenue = await Venue.create(oneVenue);
-
-      // Aggiorna l'ID del campo venue nel tuo documento originale
       venue.venue = createdVenue._id;
-
-      // Ora puoi creare o aggiornare il documento originale con il nuovo ID venue
       await Venue.updateOne({ _id: venue._id }, venue);
     }
   } catch (error) {

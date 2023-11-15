@@ -131,4 +131,22 @@ router.get("/verify", isAuthenticated, (req, res, next) => {
   // res.status(200).json(req.payload);
 });
 
+//Gets the user ID from the Bearer Token
+router.get("/getUserId/", isAuthenticated, (req, res, next) => {
+  try {
+    let token = req.headers.authorization;
+    if (!token) {
+      return res.status(401).json({ message: "No token found in the headers" });
+    }
+    token = token.replace("Bearer ", "");
+    const payload = jwt.verify(token, process.env.TOKEN_SECRET, {
+      algorithms: ["HS256"],
+    });
+    let userId = payload._id;
+    return res.status(200).json({ userId: userId });
+  } catch (error) {
+    next(error);
+  }
+});
+
 module.exports = router;
