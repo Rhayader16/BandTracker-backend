@@ -45,7 +45,7 @@ router.get("/:artistId", isAuthenticated, (req, res, next) => {
 router.get("/venue/:concertId", async (req, res, next) => {
   const { concertId } = req.params;
   try {
-    const oneConcert = await Venue.findById(concertId);
+    const oneConcert = await Venue.findById(concertId).populate("artist");
     res.json(oneConcert);
   } catch (error) {
     next(error);
