@@ -8,6 +8,7 @@ router.use(isAuthenticated);
 
 router.get("/", (req, res, next) => {
   Favourite.find()
+    .populate("artist")
     .then((allFavourites) => {
       res.status(200).json(allFavourites);
     })
