@@ -6,8 +6,8 @@ const { isAuthenticated } = require("../middleware/jwt.middleware");
 
 router.use(isAuthenticated);
 
-router.get("/", (req, res, next) => {
-  Favourite.find()
+router.get("/", isAuthenticated, (req, res, next) => {
+  Favourite.find({ user: req.userId })
     .populate("artist")
     .then((allFavourites) => {
       res.status(200).json(allFavourites);
@@ -17,9 +17,11 @@ router.get("/", (req, res, next) => {
     });
 });
 
-router.post("/", (req, res, next) => {
-  const newFavourite = { ...req.body };
-  Favourite.create(newFavourite)
+router.post("/:artistId", isAuthenticated, (req, res, next) => {
+  Favourite.create({
+    user: req.userId,
+    artist: req.params.artistId,
+  })
     .then((createNewFavourite) => {
       res.json(createNewFavourite);
     })
@@ -28,8 +30,8 @@ router.post("/", (req, res, next) => {
     });
 });
 
-router.delete("/", (req, res, next) => {
-  Favourite.findByIdAndDelete(req.params.favouriteId)
+router.delete("/:artistId", isAuthenticated, (req, res, next) => {
+  Favourite.findOneAndDelete({ artist: req.params.artistId, user: req.userId })
     .then(() => {
       res.status(204).send();
     })
