@@ -2,6 +2,7 @@ const router = require("express").Router();
 const Venue = require("./../models/Venue.model");
 const { isAdmin, isAuthenticated } = require("./../middleware/jwt.middleware");
 
+//Here we take the info on the artist and we create a concert
 router.post("/:artistId", isAuthenticated, isAdmin, (req, res, next) => {
   const artist = req.params.artistId;
   const newVenue = {
@@ -20,6 +21,7 @@ router.post("/:artistId", isAuthenticated, isAdmin, (req, res, next) => {
     });
 });
 
+//Here we get all the concerts availables but I didn't create the page yet
 router.get("/", isAuthenticated, (req, res, next) => {
   Venue.find()
     .then((allVenues) => {
@@ -30,6 +32,7 @@ router.get("/", isAuthenticated, (req, res, next) => {
     });
 });
 
+//here we get all the concerts of a single artist
 router.get("/:artistId", isAuthenticated, (req, res, next) => {
   const artistId = req.params.artistId;
 
@@ -42,6 +45,7 @@ router.get("/:artistId", isAuthenticated, (req, res, next) => {
     });
 });
 
+//Here we get one single concert of one artist (I populate the db entry with the info from the artist)
 router.get("/venue/:concertId", async (req, res, next) => {
   const { concertId } = req.params;
   try {

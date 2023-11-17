@@ -4,6 +4,7 @@ const { isAdmin, isAuthenticated } = require("./../middleware/jwt.middleware");
 const Venue = require("../models/Venue.model");
 const Album = require("../models/Album.model");
 
+//finds all artists
 router.get("/", (req, res, next) => {
   Artist.find()
     .then((allArtists) => {
@@ -17,6 +18,7 @@ router.get("/", (req, res, next) => {
 
 router.use(isAuthenticated);
 
+//create a new artist
 router.post("/", isAdmin, (req, res, next) => {
   const newArtist = { ...req.body };
   Artist.create(newArtist)
@@ -27,6 +29,8 @@ router.post("/", isAdmin, (req, res, next) => {
       next(error);
     });
 });
+
+//gets all the info about one artist
 router.get("/:artistId", async (req, res, next) => {
   const { artistId } = req.params;
   try {
@@ -38,6 +42,8 @@ router.get("/:artistId", async (req, res, next) => {
     next(error);
   }
 });
+
+//deletes an artist
 router.delete("/:artistId", isAdmin, (req, res, next) => {
   Artist.findByIdAndDelete(req.params.artistId)
     .then(() => {
@@ -47,6 +53,8 @@ router.delete("/:artistId", isAdmin, (req, res, next) => {
       next(error);
     });
 });
+
+//updates an artist
 router.put("/:artistId", isAdmin, (req, res, next) => {
   Artist.findByIdAndUpdate(req.params.artistId, req.body, { new: true })
     .then((updatedArtist) => {

@@ -6,6 +6,7 @@ const { isAuthenticated } = require("../middleware/jwt.middleware");
 
 router.use(isAuthenticated);
 
+//Here we get all the favourites of a user
 router.get("/", isAuthenticated, (req, res, next) => {
   Favourite.find({ user: req.userId })
     .populate("artist")
@@ -17,6 +18,7 @@ router.get("/", isAuthenticated, (req, res, next) => {
     });
 });
 
+//Here we create a favourite
 router.post("/:artistId", isAuthenticated, (req, res, next) => {
   Favourite.create({
     user: req.userId,
@@ -30,6 +32,7 @@ router.post("/:artistId", isAuthenticated, (req, res, next) => {
     });
 });
 
+//Here we have the possibility to erase a favourite, a feature for the future
 router.delete("/:artistId", isAuthenticated, (req, res, next) => {
   Favourite.findOneAndDelete({ artist: req.params.artistId, user: req.userId })
     .then(() => {
